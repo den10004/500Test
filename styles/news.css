@@ -1,0 +1,10 @@
+.news {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.news__main {
+  margin-top: 40px;
+  display: grid;
+}
