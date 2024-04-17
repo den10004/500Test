@@ -104,3 +104,19 @@
   width: 29px;
   height: 28px;
 }
+
+@media screen and (max-width: 768px) {
+  .slider__btnBlock {
+    width: 100px;
+  }
+
+  .slider__btnBlock > button {
+    width: 17px;
+    height: 17px;
+  }
+
+  .slider__btnBlock > button > svg {
+    width: 17px;
+    height: 17px;
+  }
+}

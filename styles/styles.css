@@ -1,6 +1,7 @@
 @import "./header.css";
 @import "./main.css";
 @import "./news.css";
+@import "./faq.css";
 @import "./normalize.css";
 
 body {
@@ -69,7 +70,6 @@ li {
   font-size: 24px;
   font-weight: 600;
   line-height: 110%;
-  letter-spacing: 0%;
   text-align: left;
   text-transform: uppercase;
 }
@@ -85,7 +85,6 @@ li {
   font-size: 24px;
   font-weight: 600;
   line-height: 110%;
-  letter-spacing: 0%;
   text-align: left;
   text-transform: uppercase;
 }
@@ -103,4 +102,27 @@ li {
   line-height: 130%;
   text-align: left;
   opacity: 0.5;
+}
+
+.bannerBtns > button {
+  border: none;
+  background-color: transparent;
+  width: 29px;
+  height: 28px;
+}
+
+@media screen and (max-width: 768px) {
+  .bannerBtns {
+    width: 100px;
+  }
+
+  .bannerBtns > button {
+    width: 17px;
+    height: 17px;
+  }
+
+  .bannerBtns > button > svg {
+    width: 17px;
+    height: 17px;
+  }
 }
