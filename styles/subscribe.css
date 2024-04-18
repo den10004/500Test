@@ -50,6 +50,13 @@
   row-gap: 20px;
 }
 
+@media screen and (max-width: 600px) {
+  .form__wrap {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 51px);
+  }
+}
+
 .form__wrap > input {
   height: 51px;
   padding: 15px;
@@ -222,8 +229,4 @@ input[type="time"]:valid::before {
 
 .custom-checkbox:disabled + label::before {
   background-color: #e9ecef;
-}
-
-.checkbox {
-  margin-bottom: 1em;
 }

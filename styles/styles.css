@@ -3,6 +3,7 @@
 @import "./news.css";
 @import "./faq.css";
 @import "./subscribe.css";
+@import "./modal-contact.css";
 @import "./footer.css";
 @import "./normalize.css";
 
@@ -45,12 +46,6 @@ a {
 .wrapper-white {
   background-color: transparent;
   padding: 0 10px 0 10px;
-}
-
-@media screen and (max-width: 768px) {
-  .wrapper-white {
-    padding: 0;
-  }
 }
 
 button {
