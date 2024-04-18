@@ -1,3 +1,12 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 119px;
+  width: 100%;
+  z-index: 5;
+}
+
 .header {
   max-width: 1360px;
   display: flex;
@@ -49,10 +58,10 @@
 }
 
 .header__btn:hover {
+  color: rgb(15, 15, 23);
   background: linear-gradient(
     180deg,
     rgb(251, 134, 39),
     rgb(245, 190, 246) 100%
   );
-  color: rgb(15, 15, 23);
 }
