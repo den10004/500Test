@@ -21,9 +21,8 @@
     />
   </head>
   <body>
-    <header>
-    <div class="wrapper">
-      <header class="header">
+    <header class="wrapper">
+      <div class="header">
         <a href="/">
           <svg
             width="70.000000"
@@ -72,19 +71,44 @@
               />
             </g></svg
         ></a>
-
         <ul class="header__list">
-          <li>О нас <img src="./images/arrow.svg" alt="arrow" /></li>
-          <li>Проекты <img src="./images/arrow.svg" alt="arrow" /></li>
+          <li>
+            <p class="paragraph list-drop">
+              О нас <img src="./images/arrow.svg" alt="arrow" />
+            </p>
+            <ul class="block-dropdown">
+              <ul class="dropdown__list">
+                <li>
+                  <a class="paragraph" href="#">О 500на 700</a>
+                </li>
+                <li><a class="paragraph" href="#">Документы</a></li>
+                <li>
+                  <a class="paragraph" href="#">Устойчивое развитие</a>
+                </li>
+                <li><a class="paragraph" href="#">Команда</a></li>
+                <li><a class="paragraph" href="#">Стратегия</a></li>
+              </ul>
+            </ul>
+          </li>
+          <li>
+            <p class="paragraph list-drop">
+              Проекты <img src="./images/arrow.svg" alt="arrow" />
+            </p>
+            <ul class="block-dropdown">
+              <ul class="dropdown__list">
+                <li><a class="paragraph" href="#">Устойчивое развитие</a></li>
+                <li><a class="paragraph" href="#">Команда</a></li>
+                <li><a class="paragraph" href="#">Стратегия</a></li>
+              </ul>
+            </ul>
+          </li>
           <li>Новости</li>
           <li>FAQ</li>
           <li>Контакты</li>
         </ul>
-
         <button class="header__btn btn-brand">Связаться с нами</button>
-      </header>
-    </div>
-    <div class="hr"></div>
+      </div>
+    </header>
 
     <div class="wrapper-main">
       <section class="main">
@@ -389,7 +413,6 @@
         </div>
       </section>
     </div>
-
     <div class="wrapper">
       <section class="faq">
         <h2 class="faq__headline headline">FAQ</h2>
