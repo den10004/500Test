@@ -71,7 +71,7 @@
               />
             </g></svg
         ></a>
-        <ul class="header__list">
+        <ul class="header__list displayMax">
           <li>
             <p class="paragraph list-drop">
               О нас <img src="./images/arrow.svg" alt="arrow" />
@@ -106,7 +106,55 @@
           <li>FAQ</li>
           <li>Контакты</li>
         </ul>
-        <button class="header__btn btn-brand">Связаться с нами</button>
+        <button class="header__btn btn-brand displayMax">
+          Связаться с нами
+        </button>
+
+        <button class="header__btn-min displayMin">
+          <div class="head-btn-container">
+            <div class="bar1"></div>
+            <div class="bar3"></div>
+          </div>
+        </button>
+
+        <div class="header__modal">
+          <div class="faq__accordion">
+            <details>
+              <summary class="paragraph headerModal-style list-drop">
+                <p>О нас</p>
+                <img src="./images/arrow.svg" alt="arrow" />
+              </summary>
+
+              <ul class="dropdown__list">
+                <li>
+                  <a class="paragraph" href="#">500на 700</a>
+                </li>
+                <li><a class="paragraph" href="#">Документы</a></li>
+                <li>
+                  <a class="paragraph" href="#">Устойчивое развитие</a>
+                </li>
+                <li><a class="paragraph" href="#">Команда</a></li>
+                <li><a class="paragraph" href="#">Стратегия</a></li>
+              </ul>
+            </details>
+            <details>
+              <summary class="paragraph headerModal-style list-drop">
+                <p>Проекты</p>
+                <img src="./images/arrow.svg" alt="arrow" />
+              </summary>
+              <ul class="dropdown__list">
+                <li><a class="paragraph" href="#">Команда</a></li>
+                <li><a class="paragraph" href="#">Стратегия</a></li>
+              </ul>
+            </details>
+            <ul class="paragraph listModal">
+              <li>Новости</li>
+              <li>FAQ</li>
+              <li>Контакты</li>
+            </ul>
+          </div>
+          <button class="header__btn btn-brand">Связаться с нами</button>
+        </div>
       </div>
     </header>
 
@@ -627,6 +675,7 @@
     </footer>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/modal.js"></script>
   <script src="./js/slider.js"></script>
   <script src="./js/faq.js"></script>
   <script src="./js/tel-mask.js"></script>

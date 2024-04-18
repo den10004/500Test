@@ -4,6 +4,12 @@
   padding-top: 40px;
 }
 
+@media screen and (max-width: 768px) {
+  .main {
+    padding-top: 20px;
+  }
+}
+
 .main__slider {
   display: flex;
   justify-content: space-between;
