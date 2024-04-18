@@ -47,3 +47,12 @@
     linear-gradient(to right, #9c20aa, #fb3570) border-box;
   color: rgb(255, 255, 255);
 }
+
+.header__btn:hover {
+  background: linear-gradient(
+    180deg,
+    rgb(251, 134, 39),
+    rgb(245, 190, 246) 100%
+  );
+  color: rgb(15, 15, 23);
+}
