@@ -165,3 +165,13 @@ li {
   font-weight: 500;
   padding: 12px 20px 12px 20px;
 }
+
+.bg-dark {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
