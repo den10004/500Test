@@ -213,28 +213,24 @@ input[type="time"]:valid::before {
   background: linear-gradient(rgb(255, 255, 255) 0 0) padding-box,
     linear-gradient(to right, rgb(251, 134, 39), rgb(222, 67, 224)) border-box;
   margin-right: 0.5em;
+  border: 1px solid #fb8627;
   background-repeat: no-repeat;
   background-position: center center;
-}
-
-.custom-checkbox:not(:disabled):not(:checked) + label:hover::before {
-  border-color: #b3d7ff;
-}
-
-.custom-checkbox:not(:disabled):active + label::before {
-  background-color: #b3d7ff;
-  border-color: #b3d7ff;
-}
-
-.custom-checkbox:focus:not(:checked) + label::before {
-  border-color: #80bdff;
+  cursor: pointer;
 }
 
 .custom-checkbox:checked + label::before {
-  background-color: red;
+  background-color: #fb8627;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 13 9'%3e%3cpath fill='%23fff' d='M4.16 8.5L-0.12 4.22L0.95 3.15L4.16 6.36L11.04 -0.52L12.11 0.55L4.16 8.5Z'/%3e%3c/svg%3e");
 }
 
-.custom-checkbox:disabled + label::before {
-  background-color: #e9ecef;
+.checkbox-label {
+  color: rgb(15, 15, 23);
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
 }
