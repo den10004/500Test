@@ -142,13 +142,13 @@ li {
   }
 
   .bannerBtns > button {
-    width: 17px;
-    height: 17px;
+    width: 25px;
+    height: 25px;
   }
 
   .bannerBtns > button > svg {
-    width: 17px;
-    height: 17px;
+    width: 25px;
+    height: 25px;
   }
 }
 
