@@ -131,12 +131,6 @@
   height: 28px;
 }
 
-@media screen and (max-width: 768px) {
-  .slider__btnBlock {
-    width: 100px;
-  }
-}
-
 .main-hr {
   margin-top: 40px;
 }

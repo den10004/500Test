@@ -14,16 +14,18 @@
   }
 }
 
-.news__slider {
-  display: none;
-}
-
 .subscribe__headline {
   max-width: 340px;
 }
 
 .subscribe__headline > h2 {
   color: rgb(15, 15, 23) !important;
+}
+
+@media screen and (max-width: 425px) {
+  .subscribe__headline > h2 {
+    width: 200px;
+  }
 }
 
 .subscribe__headline > p {

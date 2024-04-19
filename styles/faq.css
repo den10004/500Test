@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 768px) {
   .faq {
-    padding-top: 80px;
+    padding-top: 35px;
   }
 }
 
@@ -55,6 +55,12 @@ summary {
   cursor: pointer;
   position: relative;
   margin: 30px 0 30px 0;
+}
+
+@media screen and (max-width: 768px) {
+  summary {
+    margin: 20px 0 20px 0;
+  }
 }
 summary:before {
   top: 0.4em;
