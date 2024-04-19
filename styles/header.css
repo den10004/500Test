@@ -189,6 +189,9 @@ header li ul {
   .displayMin {
     display: flex;
   }
+  .list-drop:hover img {
+    transform: rotate(0deg);
+  }
 }
 
 .head-btn-container {

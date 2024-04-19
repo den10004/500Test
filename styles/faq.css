@@ -76,3 +76,11 @@ summary:before {
 details[open] > summary:before {
   transform: scale(1, -1);
 }
+
+details[open] .img-rotate {
+  transform: rotate(90deg);
+}
+
+details[open] .img-rotate1 {
+  transform: rotate(90deg);
+}
