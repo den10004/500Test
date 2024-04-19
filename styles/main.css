@@ -30,6 +30,7 @@
 .slider__block > p {
   margin-top: 20px;
   max-width: 440px;
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 768px) {
