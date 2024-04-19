@@ -177,3 +177,14 @@ li {
   background-color: rgb(61, 61, 61);
   height: 1px;
 }
+
+.checkbox-label {
+  color: rgb(15, 15, 23);
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}

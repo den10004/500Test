@@ -12,6 +12,7 @@ function openHeaderMenu() {
 
 function closeContactModal() {
   contactModal.style.display = "none";
+  document.body.style.overflow = "visible";
 }
 
 headerContainer.addEventListener("click", openHeaderMenu);
@@ -20,5 +21,6 @@ contactCloseBtn.addEventListener("click", closeContactModal);
 contactModalOpen.forEach((e) => {
   e.addEventListener("click", () => {
     contactModal.style.display = "block";
+    document.body.style.overflow = "hidden";
   });
 });

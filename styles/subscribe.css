@@ -193,19 +193,19 @@ input[type="time"]:valid::before {
 
 /*чекбокс*/
 
-.custom-checkbox {
+.custom-checkbox1 {
   position: absolute;
   z-index: -1;
   opacity: 0;
 }
 
-.custom-checkbox + label {
+.custom-checkbox1 + label {
   display: inline-flex;
   align-items: center;
   user-select: none;
 }
 
-.custom-checkbox + label::before {
+.custom-checkbox1 + label::before {
   content: "";
   display: inline-block;
   width: 18px;
@@ -219,18 +219,7 @@ input[type="time"]:valid::before {
   cursor: pointer;
 }
 
-.custom-checkbox:checked + label::before {
+.custom-checkbox1:checked + label::before {
   background-color: #fb8627;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 13 9'%3e%3cpath fill='%23fff' d='M4.16 8.5L-0.12 4.22L0.95 3.15L4.16 6.36L11.04 -0.52L12.11 0.55L4.16 8.5Z'/%3e%3c/svg%3e");
-}
-
-.checkbox-label {
-  color: rgb(15, 15, 23);
-  font-family: "Inter", sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 130%;
-  letter-spacing: 0%;
-  text-align: left;
-  text-transform: uppercase;
 }
