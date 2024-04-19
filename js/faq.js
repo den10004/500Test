@@ -15,3 +15,23 @@ function accordion(event) {
     details[i].removeAttribute("open");
   }
 }
+
+let detaiHeader = document.querySelector(".detail");
+for (i = 0; i < detaiHeader.length; i++) {
+  detaiHeader[i].addEventListener("toggle", accordion);
+}
+
+function accordion(event) {
+  if (!event.target.open) return;
+  let detaiHeader = event.target.parentNode.children;
+
+  for (i = 0; i < detaiHeader.length; i++) {
+    if (
+      detaiHeader[i].tagName != "DETAILS" ||
+      !detaiHeader[i].hasAttribute("open") ||
+      event.target == detaiHeader[i]
+    )
+      continue;
+    detaiHeader[i].removeAttribute("open");
+  }
+}
