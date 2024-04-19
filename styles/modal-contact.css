@@ -19,9 +19,6 @@
     border-radius: 0px;
     padding: 80px 10px 80px 10px;
   }
-  body {
-    overflow: hidden !important;
-  }
 }
 
 .modal__сontact > div {

@@ -52,18 +52,19 @@
 
 .footer__middle {
   display: flex;
+  width: 306px;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
   .footer__middle {
     margin-top: 30px;
+    width: 253px;
   }
 }
 
 .nav__right {
   list-style-type: none;
-  opacity: 1 !important;
-  margin-left: 150px;
 }
 
 @media screen and (max-width: 768px) {
@@ -78,7 +79,6 @@
 
 .nav__left {
   list-style-type: none;
-  opacity: 1 !important;
 }
 
 .nav__left li:not(:last-child) {
@@ -89,6 +89,13 @@
   display: flex;
   flex-direction: column;
   list-style-type: none;
+  padding: 0 54px 0 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__right {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {

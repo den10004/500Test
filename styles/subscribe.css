@@ -3,7 +3,7 @@
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
-  padding: 150px 0 78px 0;
+  padding: 80px 0 75px 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -42,12 +42,18 @@
 }
 
 .form__wrap {
-  max-width: 900px;
+  width: 900px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 51px);
   column-gap: 20px;
   row-gap: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  .form__wrap {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -122,7 +128,7 @@
 }
 
 .form__check > button {
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .btn-subscribe {
@@ -141,7 +147,7 @@
 }
 
 .form__check {
-  margin-top: 16px;
+  margin-top: 15px;
 }
 
 .form__check > div > a {
