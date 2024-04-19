@@ -4,6 +4,7 @@ let headerModalOpen = document.querySelector(".headerModalOpen");
 let contactModalOpen = document.querySelectorAll(".contact-modal-open");
 let contactModal = document.querySelector("#contactOpen");
 let contactCloseBtn = document.querySelector("#contact-close-btn");
+let modal = document.querySelector(".modal");
 
 function openHeaderMenu() {
   headerContainer.classList.toggle("change");
@@ -23,4 +24,10 @@ contactModalOpen.forEach((e) => {
     contactModal.style.display = "block";
     document.body.style.overflow = "hidden";
   });
+});
+
+modal.addEventListener("click", (e) => {
+  if (e.target == modal) {
+    closeContactModal();
+  }
 });
