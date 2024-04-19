@@ -188,3 +188,8 @@ li {
   text-align: left;
   text-transform: uppercase;
 }
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}

@@ -191,35 +191,39 @@ input[type="time"]:valid::before {
   display: none;
 }
 
-/*чекбокс*/
-
-.custom-checkbox1 {
-  position: absolute;
-  z-index: -1;
-  opacity: 0;
-}
-
-.custom-checkbox1 + label {
-  display: inline-flex;
-  align-items: center;
-  user-select: none;
-}
-
-.custom-checkbox1 + label::before {
-  content: "";
-  display: inline-block;
+.form-checkbox {
+  -webkit-appearance: none;
+  position: relative;
   width: 18px;
   height: 18px;
-  background: linear-gradient(rgb(255, 255, 255) 0 0) padding-box,
-    linear-gradient(to right, rgb(251, 134, 39), rgb(222, 67, 224)) border-box;
   margin-right: 0.5em;
+  background: white;
   border: 1px solid #fb8627;
-  background-repeat: no-repeat;
-  background-position: center center;
   cursor: pointer;
 }
 
-.custom-checkbox1:checked + label::before {
-  background-color: #fb8627;
+.form-checkbox:checked {
+  background: linear-gradient(
+    180deg,
+    rgb(251, 134, 39),
+    rgb(245, 190, 246) 100%
+  );
+}
+
+.form-checkbox::before {
+  content: "";
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 13 9'%3e%3cpath fill='%23fff' d='M4.16 8.5L-0.12 4.22L0.95 3.15L4.16 6.36L11.04 -0.52L12.11 0.55L4.16 8.5Z'/%3e%3c/svg%3e");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.form-checkbox::before {
+  display: block;
 }
