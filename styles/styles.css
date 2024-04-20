@@ -5,6 +5,7 @@
 @import "./subscribe.css";
 @import "./modal-contact.css";
 @import "./footer.css";
+@import "./newspage.css";
 @import "./normalize.css";
 
 body {
@@ -105,6 +106,16 @@ li {
   .headline-h3 {
     font-size: 16px;
   }
+}
+
+.headline-h3 {
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 110%;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .paragraph {
