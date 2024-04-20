@@ -84,3 +84,14 @@ details[open] .img-rotate {
 details[open] .img-rotate1 {
   transform: rotate(90deg);
 }
+
+details[open] .opac {
+  opacity: 1 !important;
+}
+details[close] .opac {
+  opacity: 0.5 !important;
+}
+
+.opac {
+  opacity: 0.5;
+}
